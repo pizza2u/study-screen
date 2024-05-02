@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #00cc66, #00994d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 400px; /* Definindo a largura do container */
+  }
+  
+  .login-form {
+    text-align: center;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  button {
+    width: 48%; /* Ajustando a largura dos botões para 48% */
+    padding: 12px;
+    background-color: #00994d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007a3d;
+  }
+  
+  .options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Posicionando os elementos com espaço entre eles */
+    align-items: flex-start; /* Alinhando os elementos ao topo */
+  }
+  
+  .options a {
+    color: #00994d;
+    text-decoration: none;
+  }
+  
+  .options a:hover {
+    text-decoration: underline;
+  }
+  
+  .forgot-password {
+    padding-left: 60%;
+    font-size: 14px;
+    color: #3716ae;
+    text-decoration: none;
+  }
+  
